@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Botones -->
+    <button id="autorizar_btn" style="display: none;">Autorizar</button>
+    <button id="desconectar_btn" style="display: none;">Desconectar</button>
+
+    <!-- Tabla HTML (Bootstrap 4) para mostrar los Archivos de Google Drive  -->
+    <table
+      id="root"
+      class="table table-hover table-bordered table-responsive"
+    ></table>
+
+    <script src="app.js"></script>
+    <script
+      async
+      defer
+      src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()"
+    ></script>
+  </body>
+</html>
