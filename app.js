@@ -1,6 +1,6 @@
 // Acá Pega el Cliente ID y el API Key que creaste 
-      var CLIENT_ID = '521904248563-1eatvfn5h3i5h4vhsp897fll5euprj8p.apps.googleusercontent.com';
-      var API_KEY = 'AIzaSyDeZbB8IJAlqISDSNoND9Zicv3uj71DzQw';
+      var CLIENT_ID = '299846102546-07ltpjseent31vto1i1m3i0i8kthqd87.apps.googleusercontent.com';
+      var API_KEY = 'AIzaSyC77NK0MdyKJQnJFH6nXpZLBpU16nsqOHg';
       
       // Cargamos el servicio Rest API de Google 
       var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
